@@ -1,0 +1,90 @@
+        #head1{ margin: 0px 0px 0px 0px; 
+               padding: 0px 0px 0px 0px;}
+        #head2{ margin: 20px 20px 20px 20px; 
+               padding: 0px 0px 0px 0px;}
+            
+         #textboxid
+        {   width:600px;
+            height:38px;
+            font-size:14pt;
+            border-radius: 60px;
+            border-width: 1px solid gainsboro;
+            border-style:  solid;
+            border-color: #E0E0E0;
+            justify-content: space-between;
+            
+        }  
+
+         #buttons
+        {
+            width:120px;
+            height:38px;
+            font-size:9.5pt;
+            border-radius: 3px;
+            border-width: 1px;
+            border-style:  solid;
+            border-color: #F8F8F8;
+            background-color: #F8F8F8;
+        }  
+        #icon
+        {position:absolute;
+         right=10px;
+            
+            }
+        
+        #menu-right {
+        display: flex;
+        justify-content: flex-end;  /* Aligns the flex items at the end of the container. */
+        margin-right: 20px;
+        align-items: center;
+        }
+        
+        #menu-left {
+         display: flex;
+         justify-content: flex-start;    /* flex-start is the default, aligns items at the beginning of the container. */
+         padding-left: 20px; /* There is a default padding of about 40px from the user agent stylesheet. */
+         align-items: center; } 
+         
+         #buttons 
+         {  
+            justify-content: space-between;
+            width:120px;
+            font-size:8pt;
+            border-radius: 3px;
+            border-width: 1px;
+            border-style:  solid;
+            border-color: #F8F8F8;
+            
+             }  
+         
+        #my-input-container {
+        display: flex;
+        flex-direction: row;    /* The default but specifying anyway. */
+        justify-content: space-between;    /* Make it so everything is centered vertically.*/
+        width: 600px;
+        height: 38px;
+        border: 1px solid gainsboro;
+        border-radius: 20px;
+        position: absolute;
+        }
+        
+     
+        body {
+        margin: 0;
+        padding-top:20px;
+        font-family: 'Roboto', arial;}
+        nav {
+            display: flex;  /* By default, the flex-direction is set to row. */
+            justify-content: space-between; /* Used to align the flex items. */
+           }
+        
+        a {
+        margin: 5px 5px;
+        text-decoration: none;
+        color: black;
+        font-size: small;
+        }
+               
+        h1 {font-style: normal;
+            font-weight: 550;
+            font-size:78px;}
