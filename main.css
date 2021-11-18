@@ -4,7 +4,7 @@
         
         #head2{ margin: 20px 20px 20px 20px; 
                padding: 0px 0px 0px 0px;}
-           
+               
           #images         
         {   position:absolute;
             left:340px;            
@@ -12,6 +12,7 @@
             height:36px;
             
              } 
+            
         
         @media(min-width:700px){ 
          #textboxid         
@@ -62,6 +63,8 @@
             border-style:  solid;
             border-color: #E0E0E0;
             background-color: #F8F8F8;
+            margin:20px;
+            
         }  
         #icon
         {position:absolute;
@@ -99,9 +102,8 @@
             display: flex;  /* By default, the flex-direction is set to row. */
             justify-content: space-between; /* Used to align the flex items. */
            }
-        
-        a 
-        {
+         
+        a {
         margin: 5px 5px;
         text-decoration: none;
         color: black;
@@ -111,11 +113,16 @@
         h1 {font-style: normal;
             font-weight:550;
             font-size:80px;}
-        
+            
+        h3 {display:flex;
+            justify-content:center;  /* Aligns the flex items at the end of the container. */
+        }
+            
         #textboxid:hover 
         {   border-color: #F8F8F8;
-            border-style:  groove;
-                          }
+            border-style:  groove;}
+                        
+                        
         
         #buttons:hover {cursor: pointer;}
             
